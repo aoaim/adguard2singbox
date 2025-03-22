@@ -11,22 +11,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'zacred0rryn/srs-custom'
+          repository: 'aoaim/adguard2singbox'
           persist-credentials: false
           fetch-depth: 0
 
       - name: Download and Set Up sing-box
         run: |
           mkdir -p tmp/convert
-          wget -O sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.10.0-alpha.25/sing-box-1.10.0-alpha.25-linux-amd64.tar.gz
+          wget -O sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.11.5/sing-box-1.11.5-linux-amd64.tar.gz
           tar zxvf sing-box.tar.gz && rm sing-box.tar.gz
-          cp sing-box-1.10.0-alpha.25-linux-amd64/sing-box tmp/convert/
-          rm -r sing-box-1.10.0-alpha.25-linux-amd64
+          cp sing-box-1.11.5-linux-amd64/sing-box tmp/convert/
+          rm -r sing-box-1.11.5-linux-amd64
 
       - name: Fetch AdGuard DNS Filter Lists
         run: |
           wget -O tmp/convert/AdGuardDNSFilter.txt https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-          wget -O tmp/convert/CHN_anti-AD.txt https://anti-ad.net/easylist.txt
+          wget -O tmp/convert/CHN_anti-AD.txt https://anti-ad.net/adguard.txt
 
       - name: Convert with sing-box
         run: |
@@ -34,9 +34,9 @@ jobs:
           for file in *.txt; do
             ./sing-box rule-set convert "$file" --output "${file%.txt}.srs" --type adguard
           done
-          cd ../.. && rm -r binary/adguard && mkdir -p binary/adguard
-          cp tmp/convert/*.srs binary/adguard/
-          rm -r tmp && ls -l binary/adguard
+          cd ../.. && rm -r output/adguard && mkdir -p output/adguard
+          cp tmp/convert/*.srs output/adguard/
+          rm -r tmp && ls -l output/adguard
 
       - name: Check and Commit
         run: |

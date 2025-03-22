@@ -14,17 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'zacred0rryn/srs-custom'
+          repository: 'aoaim/adguard2singbox'
           persist-credentials: false
           fetch-depth: 0
 
       - name: Download and Set Up sing-box
         run: |
           mkdir -p tmp/compile
-          wget -O sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.10.0-alpha.22/sing-box-1.10.0-alpha.22-linux-amd64.tar.gz
+          wget -O sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.11.5/sing-box-1.11.5-linux-amd64.tar.gz
           tar zxvf sing-box.tar.gz && rm sing-box.tar.gz
-          mv sing-box-1.10.0-alpha.22-linux-amd64/sing-box tmp/compile/
-          rm -r sing-box-1.10.0-alpha.22-linux-amd64
+          mv sing-box-1.11.5-linux-amd64/sing-box tmp/compile/
+          rm -r sing-box-1.11.5-linux-amd64
 
       - name: Compile with sing-box
         run: |
@@ -33,10 +33,10 @@ jobs:
           for file in *.json; do
             ./sing-box rule-set compile "$file" -o "${file%.json}.srs"
           done
-          cd ../.. && mv binary/adguard .
-          rm -r binary/* && mv adguard binary/
-          cp tmp/compile/*.srs binary/
-          rm -r tmp && ls -l binary
+          cd ../.. && mv output/adguard .
+          rm -r output/* && mv adguard output/
+          cp tmp/compile/*.srs output/
+          rm -r tmp && ls -l output
 
       - name: Check and Commit
         run: |
@@ -47,7 +47,7 @@ jobs:
             echo "changes=false" >> $GITHUB_ENV
           else
             echo "changes=true" >> $GITHUB_ENV
-            git commit -m "actions: Update binary format srs" -a
+            git commit -m "actions: Update output format srs" -a
           fi
 
       - name: Push
