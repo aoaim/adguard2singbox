@@ -1,4 +1,4 @@
-name: Fetch and Convert AdGuard Type SRS
+name: Fetch and Convert AdGuard to Sing-box SRS
 
 on:
   workflow_dispatch:
@@ -35,10 +35,10 @@ jobs:
             ./sing-box rule-set convert "$file" --output "${file%.txt}.srs" --type adguard
           done
           cd ../..
-          mkdir -p output/adguard
-          rm -rf output/adguard/* || true
-          cp tmp/convert/*.srs output/adguard/
-          rm -r tmp && ls -l output/adguard
+          mkdir -p output/
+          rm -rf output/* || true
+          cp tmp/convert/*.srs output/
+          rm -r tmp && ls -l output
 
       - name: Check and Commit
         run: |
