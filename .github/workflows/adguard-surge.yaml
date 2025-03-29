@@ -1,6 +1,7 @@
 name: Fetch and Convert AdGuard to Surge TXT
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
