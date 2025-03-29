@@ -85,6 +85,9 @@ async function outputCompiled(config, compiled) {
   const fileName = `${slugify(config.name)}.txt`
   const dest = join(distDir, fileName)
 
+  // 确保输出目录存在
+  await fs.ensureDir(distDir)
+
   if (fs.existsSync(dest)) {
     await fs.remove(dest)
   }
