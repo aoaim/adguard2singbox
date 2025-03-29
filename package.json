@@ -2,12 +2,12 @@
     "name": "surge-list",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "git@github.com:geekdada/surge-list.git",
-    "author": "Roy Li <me@dada.li>",
+    "repository": "git@github.com:aoaim/adguard2singbox.git",
+    "author": "Roy Li",
     "license": "MIT",
     "private": true,
     "scripts": {
-      "gen-domain-set": "node scripts/generate-rules"
+      "gen-domain-set": "node scripts/generate-surge-rules"
     },
     "dependencies": {
       "@adguard/hostlist-compiler": "^1.0.8",
