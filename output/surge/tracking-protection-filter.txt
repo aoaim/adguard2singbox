@@ -4,7 +4,11 @@
 .ib.snssdk.com
 .xlog.snssdk.com
 .log.snssdk.com
-.ingestion.webanalytics.italia.it
+.justid.io
+.b.videoamp.com
+.pi.ispot.tv
+.pblog-vmap.getpublica.com
+.ade.googlesyndication.com
 .kib.hu
 .woomy.me
 .pix.pontiac.media
@@ -54187,6 +54191,9 @@
 .tagman.britishairways.com
 .ct.pinterest.com
 .incoming.telemetry.mozilla.org
+.ingestion.webanalytics.italia.it
+.njoevqi1nx.hockerty.com
+.analytics.lunarclientprod.com
 .web-ivcbrasil-tag.s3.us-west-2.amazonaws.com
 .log.realelements.live
 .metrics.cs.money
@@ -54556,7 +54563,6 @@
 .abc.espritshop.pl
 .stats.browsertrix.com
 .sgmnt.beacons.ai
-.track.lc.quark.cn
 .nsclick.baidu.com
 .ipgeolocation.abstractapi.com
 .trace.mjyx.com
@@ -57150,6 +57156,13 @@
 .int.vlancaa.site
 .int.vlancaa.fun
 .tok.vaicore.xyz
+.app-tracking.hlogo.de
+.px.wpk.quark.cn
+.uc9.ucweb.com
+.ucus.ucweb.com
+.applog.lc.quark.cn
+.track.lc.quark.cn
+.log.m.sm.cn
 .track.adflow-prod.minionplatform.com
 .t-odx.op-mobile.opera.com
 .stat-analytics.mediavitrina.ru
