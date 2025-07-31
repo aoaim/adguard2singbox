@@ -4,7 +4,6 @@
 .ib.snssdk.com
 .xlog.snssdk.com
 .log.snssdk.com
-.usefathom.com
 .analytics.yyggames.com
 .attribution.airbridge.io
 .event.airbridge.io
@@ -874,7 +873,7 @@
 .track.storm.mg
 .track.unidata.ai
 .cdp.cloud.unity3d.com
-.bentonow.com
+.track.bentonow.com
 .sdk.51.la
 .adtriba.com
 .acuityplatform.com
@@ -27244,6 +27243,7 @@
 .yak.flutterblog.net
 .39grbc.jackbarber.co.uk
 .7wrxo2xh.iriscreative.co
+.8inhjmd.usefathom.com
 .9kz9cttz76.antonsten.com
 .aardvark.revolana.rs
 .aardvark.steadybit.com
@@ -60671,6 +60671,12 @@
 .tagman.britishairways.com
 .ct.pinterest.com
 .incoming.telemetry.mozilla.org
+.aws-analytics.nmg.com.hk
+.starman.usefathom.com
+.eu.usefathom.com
+.analytics.webanalytics.op.europa.eu
+.aem-kakao-collector.onkakao.net
+.slc.commerce.naver.com
 .a.klaviyo.com
 .nlog.shinhan.com
 .cdn.js.fpaudience.com
@@ -61201,7 +61207,6 @@
 .track.amebame.com
 .pks-analytics.raenonx.cc
 .pyxis.atp.fox
-.collector.appconsent.io
 .r.sib2.gardrops.com
 .nst.trex.media
 .pixel.kodixauto.ru
@@ -62150,6 +62155,7 @@
 .cdn.contalyze.com
 .cdn.odoscope.cloud
 .cdn.usefathom.com
+.cdn-eu.usefathom.com
 .cdnstats-a.akamaihd.net
 .cfg.imtt.qq.com
 .check.tadapi.info
@@ -63662,6 +63668,12 @@
 .int.vlancaa.site
 .int.vlancaa.fun
 .tok.vaicore.xyz
+.gamedot.afafb.com
+.tadata.afafb.com
+.ecpm.afafb.com
+.mediation-receiver.afafb.com
+.df.afafb.com
+.middle-defend.afafb.com
 .pangolin-sdk-toutiao.com
 .stat.tpns.sgp.tencent.com
 .guid.tpns.sgp.tencent.com
