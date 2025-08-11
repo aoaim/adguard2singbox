@@ -4,6 +4,7 @@
 .ib.snssdk.com
 .xlog.snssdk.com
 .log.snssdk.com
+.analytics.google.com
 .log.trend.rankify.best
 .alexametrics.com
 .1p-data.com
@@ -63119,6 +63120,7 @@
 .tagman.britishairways.com
 .ct.pinterest.com
 .incoming.telemetry.mozilla.org
+.ts-analysis.shoalter.com
 .targetyo.yogiyo.co.kr
 .wphlvzycf5.execute-api.eu-west-2.amazonaws.com
 .mp.cwtv.com
@@ -63328,7 +63330,6 @@
 .db7q4jg5rkhk8.cloudfront.net
 .backend-pixel.zotek.io
 .rudr-events.joybird.com
-.dns-clientinfo.vtg.paramount.tech
 .monitor.r53.cbsivideo.com
 .monitor.ns1-s.rspcdn.net
 .monitor.ns1-d.viacomtech.net
