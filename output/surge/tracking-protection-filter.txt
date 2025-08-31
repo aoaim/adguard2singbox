@@ -4,6 +4,7 @@
 .ib.snssdk.com
 .xlog.snssdk.com
 .log.snssdk.com
+.track.fusionmedia.io
 .sync.clearnview.com
 .ck-ie.com
 .rtb.voltaxam.com
@@ -68097,6 +68098,9 @@
 .tagman.britishairways.com
 .ct.pinterest.com
 .incoming.telemetry.mozilla.org
+.analytics.egdata.app
+.analytics.shutterstock.com
+.plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws
 .collector-pxdojv695v.protechts.net
 .collector-pxdojv695v.px-cloud.net
 .st.sooplive.co.kr
