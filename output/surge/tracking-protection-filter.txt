@@ -4,6 +4,9 @@
 .ib.snssdk.com
 .xlog.snssdk.com
 .log.snssdk.com
+.cloudfilt.com
+.highway.cablecar.sph.com.sg
+.i.posthog.com
 .app.optibase.io
 .abtshield.com
 .track.fusionmedia.io
@@ -46,7 +49,6 @@
 .rtg.rubiconredirect.com
 .beacon.gtv-pub.com
 .analytics-api.gemcommerce.com
-.slgnt.eu
 .slgnt.us
 .consolidata.ai
 .analytics.google.com
@@ -65053,6 +65055,9 @@
 .tagman.britishairways.com
 .ct.pinterest.com
 .incoming.telemetry.mozilla.org
+.site-see.slgnt.eu
+.site-azp.slgnt.eu
+.mobile.slgnt.eu
 .cvt1.sibnet.ru
 .analytics.egdata.app
 .analytics.shutterstock.com
@@ -68114,6 +68119,15 @@
 .int.vlancaa.site
 .int.vlancaa.fun
 .tok.vaicore.xyz
+.dc.di.atlas.samsung.com
+.dc.dqa.samsung.com
+.dev-apigw.samsungdmroute.com
+.diagmon-serviceapi.samsungdm.com
+.dls-ddc.dqa.samsung.com
+.moai-dev-samsung.com
+.qmds-dev-samsung.com
+.regi.di.atlas.samsung.com
+.stg-apigw.samsungdmroute.com
 .log-pub-hk.aoshitang.com
 .logs.dradis.netflix.com
 .analytics-stg.samsungknox.com
